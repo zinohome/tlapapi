@@ -1,0 +1,18 @@
+2022-09-26 at 12:10:16 | SUCCESS | False
+2022-09-26 at 12:10:16 | SUCCESS | [测试log] hello, world
+2022-09-26 at 12:10:16 | INFO | [测试log] hello, world
+2022-09-26 at 12:10:16 | WARNING | [测试log] hello, world
+2022-09-26 at 12:10:16 | ERROR | [测试log] hello, world
+2022-09-26 at 12:10:16 | CRITICAL | [测试log] hello, world
+2022-09-26 at 12:59:46 | SUCCESS | False
+2022-09-26 at 12:59:46 | SUCCESS | [测试log] hello, world
+2022-09-26 at 12:59:46 | INFO | [测试log] hello, world
+2022-09-26 at 12:59:46 | WARNING | [测试log] hello, world
+2022-09-26 at 12:59:46 | ERROR | [测试log] hello, world
+2022-09-26 at 12:59:46 | CRITICAL | [测试log] hello, world
+2022-09-26 at 15:24:13 | SUCCESS | False
+2022-09-26 at 15:24:13 | SUCCESS | [测试log] hello, world
+2022-09-26 at 15:24:13 | INFO | [测试log] hello, world
+2022-09-26 at 15:24:13 | WARNING | [测试log] hello, world
+2022-09-26 at 15:24:13 | ERROR | [测试log] hello, world
+2022-09-26 at 15:24:13 | CRITICAL | [测试log] hello, world
