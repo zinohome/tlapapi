@@ -17,9 +17,10 @@ from utils.awxclient.exceptions import (AuthError,
                         MissingParameterError)
 
 from utils.awxclient.decorators import require_auth
+from utils.log import log as log
 
 
-class Api(object):
+class AWXClientApi(object):
     """
     Base Ansible AWX API class
     """
@@ -93,6 +94,11 @@ class Api(object):
     @require_auth
     def get_jobs(self):
         r = self._session.get(self.api_url + "/jobs/", headers=self.headers)        
+        return r.json()
+
+    @require_auth
+    def get_all_hosts(self):
+        r = self._session.get(self.api_url + "/hosts/", headers=self.headers)
         return r.json()
 
     @require_auth
