@@ -13,3 +13,5 @@ passlib>=1.7.4
 python-jose[cryptography]>=1.16.0
 uvicorn>=0.18.3
 python-multipart>=0.0.5
+ansible-cmdb>=1.31
+ansible-runner>=2.2.1

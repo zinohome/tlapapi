@@ -39,4 +39,5 @@ if settings.SERVER_CORS_ORIGINS:
 # fastapi_utils.timing profiling
 add_timing_middleware(app, record=log.debug, prefix="app", exclude="untimed")
 
+# include routers
 app.include_router(api_router, prefix=settings.API_V1_STR)
